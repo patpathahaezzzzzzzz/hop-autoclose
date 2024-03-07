@@ -1,3 +1,4 @@
+print("boothy works")
 repeat wait() until game:IsLoaded()
 wait(40)
 game:GetService("NetworkClient").ChildRemoved:Connect(function()
